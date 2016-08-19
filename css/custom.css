@@ -1,0 +1,150 @@
+/**
+ * custom.css - Mike Williams
+ *
+ * Customization to Bootstrap CSS styles
+ * CS50 Final Project
+ */
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.credit
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1px;
+    text-align: center;
+}
+
+.dotted-border
+{
+    border: 2px dashed #f4824e;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.dotted-border-search
+{
+    border: 2px dashed #f4824e;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.form-reg
+{
+    display: inline-block;
+    max-width: 600px;
+    min-width: 280px;
+    text-align: left;
+}
+
+.navbar
+{
+    background: #f4824e;
+    color: white;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-top: 15px;
+    min-height: 1.2em;
+    text-align: center;
+}
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.navbutton
+{
+    height: auto;
+    min-height: 1.2em;
+}
+
+.navbutton:hover
+{
+    background: #f69669;  
+}
+
+.search-btn
+{
+    background: #f4824e;
+    color: white;
+}
+
+.search-btn:hover
+{
+    background: #f69669;
+    color: white;
+}
+
+.search-label
+{
+    margin-bottom: 15px;
+}
+
+.title
+{
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 20px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.titlebar
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#bottom
+{
+    margin-bottom: 15px;
+    margin-top: 30px;    
+}
+
+#directions-panel
+{
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 400px;
+    overflow: scroll;
+    width: 30%;
+}
+
+#map-canvas
+{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 400px;
+    overflow: scroll;
+    padding: 0px;
+    width: 70%;
+}
+
+#top 
+{
+    margin-bottom: 15px;
+}
+
+@media print {
+    #map-canvas {
+      height: 500px;
+      margin: 0;
+    }
+
+    #directions-panel {
+      float: none;
+      width: auto;
+    }
+}
