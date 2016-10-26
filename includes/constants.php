@@ -10,22 +10,22 @@
      */
 
     // your database's name
-    define("DATABASE", "burritos");
+    define("DATABASE", "*******"); // removed
 
     // your database's password
-    define("PASSWORD", "dcy1019rfg##");
+    define("PASSWORD", "*******"); // removed
 
     // your database's server
-    define("SERVER", "localhost");
+    define("SERVER", "*******"); // removed
 
     // your database's username
-    define("USERNAME", "data-access");
+    define("USERNAME", "******"); // removed
 
     // Yelp API Globals
-    define("CONSUMER_KEY", "LBEx0yVI4BRDda1IMfG2_g");
-    define("CONSUMER_SECRET", "J4p5NafpgW51oIt94B73jaIbz-Y");
-    define("TOKEN", "dU0vLYxZ1e2-efU-4o03CiRIf1gvFl5c");
-    define("TOKEN_SECRET", "HrknkdfWhlAxfZMev1oWtPvEr3E");
+    define("CONSUMER_KEY", "******");  // removed
+    define("CONSUMER_SECRET", "*******"); // removed
+    define("TOKEN", "*******"); // removed
+    define("TOKEN_SECRET", "******"); // removed
     define("SEARCH_TERM", "burritos");
     define("SEARCH_LIMIT", 5);
     define("SEARCH_PATH", "/v2/search/");
